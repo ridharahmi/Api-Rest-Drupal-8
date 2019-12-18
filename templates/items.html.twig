@@ -1,0 +1,19 @@
+<section class="list-item">
+    {% for item in items %}
+        <div class="item">
+
+            {% if item.logo %}
+                <div class="logo">
+                    <img class="img-responsive" src="{{ item.logo }}">
+                </div>
+            {% endif %}
+
+            {% if item.title %}
+                <div class="title">
+                    {{ item.title }}
+                </div>
+            {% endif %}
+
+        </div>
+    {% endfor %}
+</section>

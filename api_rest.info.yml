@@ -1,0 +1,5 @@
+name: Custom Api Rest drupal 8
+description: This is Custom api rest drupal 8
+package: Custom
+type: module
+core: 8.x

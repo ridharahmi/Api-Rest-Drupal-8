@@ -1,0 +1,5 @@
+api_rest_style:
+  version: 1.x
+  css:
+    theme:
+      assets/css/custom.css: {}

@@ -1,0 +1,5 @@
+api_rest.items:
+  title: 'Custom Api Rest'
+  description: 'This is Custom Api Rest Drupal 8.'
+  parent: system.admin_config_ui
+  route_name: api_rest.items
