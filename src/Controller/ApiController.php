@@ -23,7 +23,7 @@ class ApiController extends ControllerBase
     public function items()
     {
         $client = \Drupal::httpClient();
-        $url = 'http://deploy:deploy_bitbucket_2017@investia-intra.elyosdigital.com/api/pme/passed';
+        $url = 'http://api.example.com/test/';
         //$items = [];
         try {
             $response = $client->get($url);
