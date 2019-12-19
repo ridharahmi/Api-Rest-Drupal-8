@@ -1,7 +1,8 @@
 api_rest.items:
-  path: '/items'
+  path: '/items/{page}'
   defaults:
     _controller: '\Drupal\api_rest\Controller\ApiController::items'
     _title_callback: '\Drupal\api_rest\Controller\ApiController::titleItems'
+    page: 1
   requirements:
     _permission: 'access content'

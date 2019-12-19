@@ -9,7 +9,13 @@ function api_rest_theme($existing, $type, $theme, $path)
     return array(
         'list_items' => array(
             'variables' => array(
-                'items' => array()
+                'items' => null,
+                'first_page_url' => null,
+                'last_page_url' => null,
+                'current_page' => null,
+                'per_page' => null,
+                'last_page' => null,
+                'pages_number' => null
             ),
             'template' => 'items',
         )
@@ -26,3 +32,5 @@ function api_rest_page_attachments(array &$variables)
     $variables['#attached']['library'][] = 'api_rest/api_rest_style';
 
 }
+
+
